@@ -22,7 +22,7 @@ export default function Header() {
 
                     </Flex>
                     <Box display={{ lg: 'initial', base: 'none' }}>
-                        <Button mt='10px' size='lg' colorScheme='blackAlpha' float='right'>Apply</Button>
+                        <Button mt='10px' size='lg' colorScheme='teal' float='right'>Apply</Button>
                     </Box>
                     <Box pt='20px' display={{ lg: 'none', base: 'initial' }}>
                         <Menu  >
