@@ -14,11 +14,11 @@ export default function Header() {
                         <Image src={png} alt='panaverse-logo' ></Image>
                     </Box>
                     <Flex display={{ lg: 'flex', base: 'none' }} placeItems='center' color='black' fontSize={18} fontWeight='semibold' gap={10}>
-                        <Link href=''>Home</Link>
-                        <Link href=''>Syllabus</Link>
-                        <Link href=''>Explore</Link>
-                        <Link href=''>About</Link>
-                        <Link href=''>Contact</Link>
+                        <Link href='/'>Home</Link>
+                        <Link href='/syllabus'>Syllabus</Link>
+                        <Link href='/explore'>Explore</Link>
+                        <Link href='/about'>About</Link>
+                        <Link href='/contact'>Contact</Link>
 
                     </Flex>
                     <Box display={{ lg: 'initial', base: 'none' }}>
